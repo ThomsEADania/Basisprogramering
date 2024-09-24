@@ -16,6 +16,8 @@ namespace Dag_1___Øvelse_3
 
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
+
+            //"Clearer" hele konsollen sådan at baggrundsfarven "får plads" til at udfylde det hele
             Console.Clear();
 
             Console.WriteLine("The background is now blue and the text is white");
@@ -28,6 +30,7 @@ namespace Dag_1___Øvelse_3
             Console.ReadKey();
             Console.Beep();
 
+            //Pauser programmet
             Console.WriteLine("Press any key to exit the program");
             Console.ReadKey();
         }

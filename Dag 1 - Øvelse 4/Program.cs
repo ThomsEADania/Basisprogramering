@@ -21,10 +21,11 @@ namespace Dag_1___Øvelse_4
 
             //Del 2 - "Lav et program der skriver indtastet tekst ud til skærmen"
 
-            //Ikke nødvendig men gør det mere klart hvad brugeren skal
+            //Ikke strengt nødvendig, men gør det mere klart hvad brugeren skal
             Console.WriteLine("Please enter your name");
 
             string name = Console.ReadLine();
+            
             Console.WriteLine($"Hi, {name}");
 
 
