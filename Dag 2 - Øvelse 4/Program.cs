@@ -26,7 +26,7 @@ namespace Dag_2___Øvelse_4
                 {
                     Console.WriteLine("Please enter your password");
 
-                    if (Console.ReadLine() == (password))
+                    if (Console.ReadLine() == password)
                     {
                         Console.WriteLine("Welcome Thoms");
 
