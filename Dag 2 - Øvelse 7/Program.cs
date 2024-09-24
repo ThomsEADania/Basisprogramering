@@ -8,119 +8,86 @@ namespace Dag_2___Øvelse_7
 {
     internal class Program
     {
-
-
         static void Main(string[] args)
         {
             string username = string.Empty;
             string password = string.Empty;
-            string pressAnyKey = "Press any key to close the program...";
+            
+            Console.WriteLine("Login:");
 
-            Console.WriteLine("Select your language/Vælg dit sprog: \n1. English \n2. Dansk");
-            int language = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter your username");
+            string inUsername = Console.ReadLine();
 
-            if (language == 1)
+            Console.WriteLine("Please enter your password");
+            string inPassword = Console.ReadLine();
+
+            switch (inUsername)
             {
-                //Engelsk version
-                Console.WriteLine("Please enter your age");
-                int age = int.Parse(Console.ReadLine());
+                case "Bob":
+                    username = "Bob";
+                    password = "1";
+                    break;
 
-                if (age >= 18)
-                {
-                    Console.WriteLine("Creating new user account:");
+                case "Wade":
+                    username = "Wade";
+                    password = "2";
+                    break;
 
-                    Console.WriteLine("Please enter your username");
-                    username = Console.ReadLine();
+                case "Mark":
+                    username = "Mark";
+                    password = "3";
+                    break;
 
-                    Console.WriteLine("Please enter your password");
-                    password = Console.ReadLine();
+                case "Robert":
+                    username = "Robert";
+                    password = "4";
+                    break;
 
-                    Console.WriteLine("User account created!");
-                }
-                else
-                {
-                    Console.WriteLine("You are not old enough!");
+                case "Steve":
+                    username = "Steve";
+                    password = "5";
+                    break;
 
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
-                Console.WriteLine("Login:");
+                case "Tyler":
+                    username = "Tyler";
+                    password = "6";
+                    break;
 
-                Console.WriteLine("Please enter your username");
-                string inUsername = Console.ReadLine();
+                case "John":
+                    username = "John";
+                    password = "7";
+                    break;
 
-                Console.WriteLine("Please enter your password");
-                string inPassword = Console.ReadLine();
+                case "Dennis":
+                    username = "Dennis";
+                    password = "8";
+                    break;
 
-                if (inUsername == username && inPassword == password)
-                {
-                    Console.WriteLine($"Welcome {username}!");
+                case "Daniel":
+                    username = "Daniel";
+                    password = "9";
+                    break;
 
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
-                else
-                {
-                    Console.WriteLine("Invalid username or password");
+                case "William":
+                    username = "William";
+                    password = "10";
+                    break;
 
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
+                default:
+                    Console.WriteLine("Your account does not exist.");
+                    break;
+
             }
-            else if (language == 2)
+            if (inUsername == username && inPassword == password)
             {
-                //Dansk version
-                Console.WriteLine("Indtast din alder");
-                int age = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Welcome {username}, you have succesfully logged in!");
 
-                if (age >= 18)
-                {
-                    Console.WriteLine("Opretter ny bruger konto:");
-
-                    Console.WriteLine("Indtast dit brugernavn");
-                    username = Console.ReadLine();
-
-                    Console.WriteLine("Indtast dit password");
-                    password = Console.ReadLine();
-
-                    Console.WriteLine("Bruger konto oprettet!");
-                }
-                else
-                {
-                    Console.WriteLine("Du er ikke gammel nok!");
-
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
-                Console.WriteLine("Login:");
-
-                Console.WriteLine("Indtast dit brugernavn");
-                string inUsername = Console.ReadLine();
-
-                Console.WriteLine("Indtast dit password");
-                string inPassword = Console.ReadLine();
-
-                if (inUsername == username && inPassword == password)
-                {
-                    Console.WriteLine($"Velkommen {username}!");
-
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
-                else
-                {
-                    Console.WriteLine("Ugyldigt brugernavn eller password");
-
-                    Console.WriteLine(pressAnyKey);
-                    Console.ReadKey();
-                }
+                Console.WriteLine("\nPress any key to close the program...");
+                Console.ReadKey();
             }
             else
             {
-                //Håndtere hvis brugeren skriver noget andet end 1 (Engelsk) eller 2 (Dansk)
-                Console.WriteLine("Invalid input");
-
-                Console.WriteLine(pressAnyKey);
+                Console.WriteLine("\nPress any key to close the program...");
                 Console.ReadKey();
             }
         }
