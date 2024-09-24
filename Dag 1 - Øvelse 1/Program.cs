@@ -10,6 +10,14 @@ namespace Dag_1___Øvelse_1
     {
         static void Main(string[] args)
         {
+            //Slide 55 (grøn)
+
+            Console.WriteLine("Hello World!");
+
+
+
+            //Pauser programmet
+            Console.ReadKey();
         }
     }
 }
