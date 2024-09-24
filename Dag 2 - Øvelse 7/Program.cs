@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 50
+
 namespace Dag_2___Øvelse_7
 {
     internal class Program

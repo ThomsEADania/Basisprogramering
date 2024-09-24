@@ -10,8 +10,6 @@ namespace Dag_2___Øvelse_6
 {
     internal class Program
     {
-        
-
         static void Main(string[] args)
         {
             string username = string.Empty;
