@@ -7,7 +7,7 @@
     <ProjectGuid>{50923B2E-1444-4840-891C-52F14D2324DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Dag_2___Øvelse_10</RootNamespace>
-    <AssemblyName>Dag_2___Øvelse_10</AssemblyName>
+    <AssemblyName>Dag 2 - Øvelse 10</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
