@@ -15,9 +15,9 @@ namespace Dag_2
             
             int n = 6;
             
-            bool result1 = n == 5;
-            bool result2 = n >= 5;
-            bool result3 = n != 5;
+            bool result1 = n == 5; //false, 6 er ikke lig med 5
+            bool result2 = n >= 5; //true, 6 er større end 5
+            bool result3 = n != 5; //true, 6 er ikke 5
 
             Console.WriteLine(result1);
             Console.WriteLine(result2);
