@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9697233-EA09-4859-A6B1-3E0921773A69}</ProjectGuid>
+    <ProjectGuid>{A1FEB3DC-E82E-4B0C-ABFB-E8CBA4D4783F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dag_2___Øvelse_8</RootNamespace>
-    <AssemblyName>Dag 2 - Øvelse 8</AssemblyName>
+    <RootNamespace>Dag_1___Obligatorisk_Opgave</RootNamespace>
+    <AssemblyName>Dag 1 - Obligatorisk Opgave</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
