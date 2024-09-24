@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 52 - "Brug if-konstruktioner til at skrive en forskellig velkomstbesked baseret på data’et i den gule øvelse (Øvelse 8)"
+
 namespace Dag_2___Øvelse_9
 {
     internal class Program
