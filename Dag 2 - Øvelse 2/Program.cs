@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 15
+
 namespace Dag_2___Øvelse_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Slide 15
             int n = 6;
 
             bool result1 = n >= 5 && n < 10;

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 14
+
 namespace Dag_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Slide 14
+            
             int n = 6;
             
             bool result1 = n == 5;

@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 16
+
 namespace Dag_2___Øvelse_3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }

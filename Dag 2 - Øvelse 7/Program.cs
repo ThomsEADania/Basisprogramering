@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Slide 43
-
-namespace Dag_2___Øvelse_6
+namespace Dag_2___Øvelse_7
 {
     internal class Program
     {
-        
+
 
         static void Main(string[] args)
         {
@@ -30,24 +28,24 @@ namespace Dag_2___Øvelse_6
                 if (age >= 18)
                 {
                     Console.WriteLine("Creating new user account:");
-                    
+
                     Console.WriteLine("Please enter your username");
                     username = Console.ReadLine();
 
                     Console.WriteLine("Please enter your password");
                     password = Console.ReadLine();
-                    
+
                     Console.WriteLine("User account created!");
                 }
                 else
                 {
                     Console.WriteLine("You are not old enough!");
-                    
+
                     Console.WriteLine(pressAnyKey);
                     Console.ReadKey();
                 }
                 Console.WriteLine("Login:");
-                
+
                 Console.WriteLine("Please enter your username");
                 string inUsername = Console.ReadLine();
 
