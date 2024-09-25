@@ -30,23 +30,41 @@ namespace Dag_3___Øvelse_3___Del_1
             Console.ReadKey();
         }
         /// <summary>
-        /// Adds 2 integers together and returns the result
+        /// Adds 2 integers together
         /// </summary>
-        /// <param name="a">First number</param>
-        /// <param name="b">Second number</param>
-        /// <returns></returns>
+        /// <param name="a">First integer</param>
+        /// <param name="b">Second integer</param>
+        /// <returns>Result of: a + b</returns>
         static int Add(int a, int b) //Lægge 2 tal sammen
         {
             return a + b;
         }
+        /// <summary>
+        /// Subtracts the first integer from the second
+        /// </summary>
+        /// <param name="a">First integer</param>
+        /// <param name="b">Second integer</param>
+        /// <returns>Result of: a - b</returns>
         static int Subtract(int a, int b) // Trække 2 tal fra hinanden
         {
             return a - b;
         }
+        /// <summary>
+        /// Multiplies the first integer with the second
+        /// </summary>
+        /// <param name="a">First integer</param>
+        /// <param name="b">First integer</param>
+        /// <returns>Result of: a * b</returns>
         static int Multiply(int a, int b) //Gange 2 tal sammen
         {
             return a * b;
         }
+        /// <summary>
+        /// Divides the first integer with the second
+        /// </summary>
+        /// <param name="a">First integer</param>
+        /// <param name="b">First integer</param>
+        /// <returns>Result of: a / b</returns>
         static int Divide(int a, int b) //Dividere 2 tal
         {
             return a / b;
