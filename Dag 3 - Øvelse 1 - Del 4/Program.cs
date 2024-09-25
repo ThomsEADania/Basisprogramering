@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 23
 //Del 4 "Lav en enum til at definere en retning:
 //1. Lav enum og lav en variabel der bruger denne enum som datatype.
 //2. Skriv variablens værdi ud til skærmen.
