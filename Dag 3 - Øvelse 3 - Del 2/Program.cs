@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 63
 //Omorganiser en øvelse fra mandag eller tirsdag til at bruge funktioner.
 
 namespace Dag_3___Øvelse_3___Del_2

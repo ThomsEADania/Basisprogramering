@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Slide 63
 //Funktionerne fra tidligere øvelser skal kommenteres.
 //Kontroller at intellisense viser jeres kommentarer, når I prøver at kalde jeres kode.
 
