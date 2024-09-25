@@ -12,6 +12,42 @@ namespace Dag_2___Øvelse_10
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("For-loop:"); //For loop som tjekker om a er mindre end eller lig med 10, printer værdien og derefter forøger dens værdi
+            for (int a = 0; a <= 10; a++)
+            {
+                Console.WriteLine($"a er {a}");
+            }
+            
+            Console.WriteLine(""); //Tilføjer en tom linje for læseletheden
+
+
+
+            Console.WriteLine("While-loop:"); //While loop, som tjekker om b er mindre end eller lig med 10, printer den nuværende værdi og forøger med 1
+            int b = 0;
+            while (b <= 10)
+            {
+                Console.WriteLine($"b er {b}");
+                b++;
+            }
+            
+            Console.WriteLine(""); //Tilføjer en tom linje for læseletheden
+
+
+
+            Console.WriteLine("Do..While-loop:"); //Do..While-loop som printer værdien af c, forøger værdien og tjekker om den er under eller lig med 10
+            int c = 0;
+            do
+            {
+                Console.WriteLine($"c er {c}");
+                c++;
+            } while (c <= 10);
+            
+            Console.WriteLine(""); //Tilføjer en tom linje for læseletheden
+
+
+            //Pauser programmet
+            Console.WriteLine("Press any key to close the program...");
+            Console.ReadKey();
         }
     }
 }
