@@ -17,7 +17,7 @@ namespace Dag_2___Øvelse_2
             bool result1 = n >= 5 && n < 10; //true, 6 er større end 5 og mindre end 10
             bool result2 = !(n >= 5 && n < 10); //false, da 6 er større end 5 og mindre end 10, modsat af ovenstående
             bool result3 = n < 5 || n >= 10; //false, 6 er hverken mindre end 5 eller større end eller lig med 10
-            bool result4 = n > 5 || n >= 10; //true, 6 er større end 5 ("n >= 10" har ingen indflydning i denne situation
+            bool result4 = n > 5 || n >= 10; //true, 6 er større end 5 "n >= 10" har ingen indflydning i denne situation
 
             Console.WriteLine(result1);
             Console.WriteLine(result2);
