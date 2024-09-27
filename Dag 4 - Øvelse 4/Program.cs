@@ -128,7 +128,6 @@ namespace Dag_4___Øvelse_4
                             Console.Write("* "); //Black King
                             break;
                         default:
-                            Console.ForegroundColor = ConsoleColor.Magenta;
                             Console.Write("  "); //Empty space
                             break;
                     }
