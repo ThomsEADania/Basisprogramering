@@ -40,8 +40,6 @@ namespace Dag_4___Øvelse_4
                 {0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0},
                 {1, 1, 1, 1, 1, 1, 1, 1},
                 {2, 3, 4, 5, 6, 4, 3, 2}
             };
@@ -51,67 +49,106 @@ namespace Dag_4___Øvelse_4
             {
                 for (int y = 0; y < chessBoard.GetLength(1); y++)
                 {
-                    for
+                    #region Background coloring
+                    if (x % 2 == 0)
+                    {
+                        if (y % 2 == 0)
+                        {
+                            Console.BackgroundColor = ConsoleColor.Gray;
+                        }
+                        else
+                        {
+                            Console.BackgroundColor = ConsoleColor.DarkGray;
+                        }
+                    }
+                    else if (x % 2 != 0)
+                    {
+                        if (y % 2 == 0)
+                        {
+                            Console.BackgroundColor = ConsoleColor.DarkGray;
+                        }
+                        else
+                        {
+                            Console.BackgroundColor = ConsoleColor.Gray;
+                        }
+                    }
+                    #endregion
+
                     #region Chesspiece coloring
-                    switch (chessBoard[x,y])
+                    bool isWhite = false;
+                    
+                    switch (chessBoard[x, y])
                     {
                         case 1:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("P"); //White Pawn
+                            isWhite = true;
+                            Console.Write("P "); //White Pawn
                             break;
                         case 2:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("R"); //White Rook
+                            isWhite = true;
+                            Console.Write("R "); //White Rook
                             break;
                         case 3:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("K"); //White Knight
+                            isWhite = true;
+                            Console.Write("K "); //White Knight
                             break;
                         case 4:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("B"); //White Bishop
+                            isWhite = true;
+                            Console.Write("B "); //White Bishop
                             break;
                         case 5:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("Q"); //White Queen
+                            isWhite = true;
+                            Console.Write("Q "); //White Queen
                             break;
                         case 6:
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write("*"); //White King
+                            isWhite = true;
+                            Console.Write("* "); //White King
                             break;
                         case 7:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("P"); //Black Pawn
+                            isWhite = false;
+                            Console.Write("P "); //Black Pawn
                             break;
                         case 8:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("R"); //Black Rook
+                            isWhite = false;
+                            Console.Write("R "); //Black Rook
                             break;
                         case 9:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("K"); //Black Knight
+                            isWhite = false;
+                            Console.Write("K "); //Black Knight
                             break;
                         case 10:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("B"); //Black Bishop
+                            isWhite = false;
+                            Console.Write("B "); //Black Bishop
                             break;
                         case 11:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("Q"); //Black Queen
+                            isWhite = false;
+                            Console.Write("Q "); //Black Queen
                             break;
                         case 12:
-                            Console.ForegroundColor = ConsoleColor.DarkBlue;
-                            Console.Write("*"); //Black King
+                            isWhite = false;
+                            Console.Write("* "); //Black King
                             break;
                         default:
-                            Console.Write(" "); //Empty space
+                            Console.ForegroundColor = ConsoleColor.Magenta;
+                            Console.Write("  "); //Empty space
                             break;
                     }
-#endregion
-                    //Console.Write(chessBoard[x,y]);
+
+                    if (isWhite == true)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                    }
+                    #endregion
                 }
                 Console.WriteLine();
             }
+            
+            //Resets colors
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
 
 
 
